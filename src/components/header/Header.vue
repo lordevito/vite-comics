@@ -3,11 +3,13 @@
 // IMPORTO I SOTTOCOMPONENTI 
 import HeaderLogo from './HeaderLogo.vue';
 import HeaderMenu from './HeaderMenu.vue';
+import Jumbotron from './Jumbotron.vue';
 // DICHIARO COSA VOGLIO ESPORTARE 
 export default {
     components: {
         HeaderLogo,
         HeaderMenu,
+        Jumbotron,
     },
     // STRUTTURA CLASSICA DI VUE 
     data() {
@@ -28,6 +30,9 @@ export default {
             <div class="headerNav">
                 <HeaderMenu></HeaderMenu>
             </div>
+        </div>
+        <div class="jumbotron">
+            <Jumbotron></Jumbotron>
         </div>
     </div>
 </template>
