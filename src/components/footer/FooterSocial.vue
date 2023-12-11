@@ -55,7 +55,7 @@ export default {
             <ul>
                 <li v-for="link in links">
                     <a :href="link.link" :target="link.target">
-                        <img :src="links.logo" :alt="link.name">
+                        <img :src="link.logo" :alt="link.name">
                     </a>
                 </li>
             </ul>
